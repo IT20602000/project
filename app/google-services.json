@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49211571939",
+    "project_id": "tick-to-dine-e563e",
+    "storage_bucket": "tick-to-dine-e563e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49211571939:android:9ba63fd1b0a88af7ec4fd6",
+        "android_client_info": {
+          "package_name": "com.example.mealfactoryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49211571939-3jtp7s5ang126hri358pq7t413bu742m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT3CbkJhNIVs2OvP77JAX1REZCWwSxPyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49211571939-3jtp7s5ang126hri358pq7t413bu742m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
