@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="6dp"
+    android:layout_margin="6dp"
+    android:backgroundTint="@color/colorAccent"
+    tools:targetApi="lollipop">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/itemCodeTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3pt"
+            android:text="itemCode"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/LL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemCodeTV"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity: "
+                android:textColor="#cfcdcc"
+                android:textSize="7pt"/>
+
+            <TextView
+                android:id="@+id/quanTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="quan"
+                android:textSize="7pt"
+                android:paddingRight="12pt"
+                android:textColor="#FFFFFF"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: "
+                android:textSize="7pt"
+                android:textColor="#cfcdcc"
+                android:paddingLeft="12pt"/>
+
+            <TextView
+                android:id="@+id/priceTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price"
+                android:textSize="7pt"
+                android:textColor="#FFFFFF"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LL1"
+            android:gravity="center"
+            android:layout_marginVertical="9dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/editOrder"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Update Order"
+                android:textColor="@color/colorAccent"
+                android:background="#FFFFFF"
+                android:layout_marginHorizontal="2pt"/>
+
+            <Button
+                android:id="@+id/deleteOrder"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Delete Order"
+                android:textColor="@color/colorAccent"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
